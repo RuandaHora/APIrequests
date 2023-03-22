@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State var secondary = CardViewModel()
     var body: some View {
         NavigationView{
             ScrollView(){
@@ -8,9 +9,9 @@ struct HomeView: View {
                     Card1ViewS()
                         .padding(30)
                         .shadow(color: .purple ,radius: 5)
-                    Card1ViewS()
+                    Card2ViewS()
                         .padding(15)
-                        .shadow(color: .purple ,radius: 5)
+                        .shadow(color: .gray, radius: 5)
                     Card1ViewS()
                         .padding(15)
                         .shadow(color: .purple ,radius: 5)

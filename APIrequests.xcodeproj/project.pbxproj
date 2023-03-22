@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88694E7C29CBBB3100BD7E67 /* Card2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88694E7B29CBBB3100BD7E67 /* Card2View.swift */; };
+		88694E8129CBC08000BD7E67 /* Card1Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88694E8029CBC08000BD7E67 /* Card1Model.swift */; };
+		88694E8429CBC0D900BD7E67 /* Card1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88694E8329CBC0D900BD7E67 /* Card1ViewModel.swift */; };
+		88694E8829CBC3F500BD7E67 /* Card2Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88694E8729CBC3F500BD7E67 /* Card2Model.swift */; };
+		88694E8A29CBC52200BD7E67 /* Card2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88694E8929CBC52200BD7E67 /* Card2ViewModel.swift */; };
 		888B197F29CA7A4300774C73 /* APIrequestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B197E29CA7A4300774C73 /* APIrequestsApp.swift */; };
 		888B198129CA7A4300774C73 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B198029CA7A4300774C73 /* HomeView.swift */; };
 		888B198329CA7A4700774C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888B198229CA7A4700774C73 /* Assets.xcassets */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88694E7B29CBBB3100BD7E67 /* Card2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card2View.swift; sourceTree = "<group>"; };
+		88694E8029CBC08000BD7E67 /* Card1Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card1Model.swift; sourceTree = "<group>"; };
+		88694E8329CBC0D900BD7E67 /* Card1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card1ViewModel.swift; sourceTree = "<group>"; };
+		88694E8729CBC3F500BD7E67 /* Card2Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card2Model.swift; sourceTree = "<group>"; };
+		88694E8929CBC52200BD7E67 /* Card2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card2ViewModel.swift; sourceTree = "<group>"; };
 		888B197B29CA7A4300774C73 /* APIrequests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIrequests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		888B197E29CA7A4300774C73 /* APIrequestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIrequestsApp.swift; sourceTree = "<group>"; };
 		888B198029CA7A4300774C73 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -34,6 +44,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88694E7D29CBC04C00BD7E67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88694E8029CBC08000BD7E67 /* Card1Model.swift */,
+				88694E8729CBC3F500BD7E67 /* Card2Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88694E8229CBC0B600BD7E67 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				88694E8329CBC0D900BD7E67 /* Card1ViewModel.swift */,
+				88694E8929CBC52200BD7E67 /* Card2ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		888B197229CA7A4300774C73 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +81,8 @@
 		888B197D29CA7A4300774C73 /* APIrequests */ = {
 			isa = PBXGroup;
 			children = (
+				88694E8229CBC0B600BD7E67 /* ViewModel */,
+				88694E7D29CBC04C00BD7E67 /* Model */,
 				888B198C29CA7B4800774C73 /* View */,
 				888B197E29CA7A4300774C73 /* APIrequestsApp.swift */,
 				888B198229CA7A4700774C73 /* Assets.xcassets */,
@@ -82,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				888B199329CA7CAC00774C73 /* Card1View.swift */,
+				88694E7B29CBBB3100BD7E67 /* Card2View.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -164,9 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88694E8429CBC0D900BD7E67 /* Card1ViewModel.swift in Sources */,
+				88694E8829CBC3F500BD7E67 /* Card2Model.swift in Sources */,
 				888B199429CA7CAC00774C73 /* Card1View.swift in Sources */,
+				88694E7C29CBBB3100BD7E67 /* Card2View.swift in Sources */,
+				88694E8129CBC08000BD7E67 /* Card1Model.swift in Sources */,
 				888B198129CA7A4300774C73 /* HomeView.swift in Sources */,
 				888B197F29CA7A4300774C73 /* APIrequestsApp.swift in Sources */,
+				88694E8A29CBC52200BD7E67 /* Card2ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
