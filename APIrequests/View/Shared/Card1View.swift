@@ -23,6 +23,7 @@ struct Card1ViewS: View {
                 Text(CardViewM.user.TextTop)
                     .foregroundColor(Color.white)
                     .font(.system(size: 25).bold())
+                Spacer()
                 Image(CardViewM.user.IconeSwift)
                     .resizable()
                     .frame(width: 45, height: 45)
@@ -40,7 +41,7 @@ struct Card1ViewS: View {
                 
             }
         }.padding(25)
-            .frame(width: 350, height: 350)
+            .frame(width: 350, height: 340)
             .background(Color.purple)
             .cornerRadius(30)
     }

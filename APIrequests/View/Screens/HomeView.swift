@@ -7,14 +7,16 @@ struct HomeView: View {
             ScrollView(){
                 VStack{
                     Card1ViewS()
-                        .padding(30)
                         .shadow(color: .purple ,radius: 5)
+                        .padding(.top, 30)
                     Card2ViewS()
-                        .padding(15)
-                        .shadow(color: .gray, radius: 5)
+                        .shadow(color: .blue, radius: 5)
+                        .padding(.top, 15)
+                        
                     Card1ViewS()
-                        .padding(15)
                         .shadow(color: .purple ,radius: 5)
+                        .padding(.top, 15)
+                        
                 }.navigationTitle("Courses")
             }
         }

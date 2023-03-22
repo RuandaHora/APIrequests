@@ -5,5 +5,5 @@ struct Card2Models {
     var TextTop: String
     var TextFoot: String
     var Cartoon1: String
-    var Secondarys: String
+    var blue: String
 }
