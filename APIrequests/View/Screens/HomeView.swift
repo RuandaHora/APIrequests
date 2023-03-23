@@ -4,7 +4,7 @@ struct HomeView: View {
     @State var secondary = CardViewModel()
     var body: some View {
         NavigationView{
-            ScrollView(){
+            ScrollView(.vertical, showsIndicators: false){
                 VStack{
                     Card1ViewS()
                         .shadow(color: .purple ,radius: 5)

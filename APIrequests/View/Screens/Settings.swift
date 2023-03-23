@@ -29,6 +29,10 @@ struct Settings: View {
                     }
                     HStack{
                         Text("Sujestões de ID Apple")
+                        Spacer()
+                        Image(systemName: "chevron.forward")
+                            .font(.system(size: 15))
+                            .foregroundColor(Color.secondary)
                     }
                 }
             }.navigationTitle("Settings")
