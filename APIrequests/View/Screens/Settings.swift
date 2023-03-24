@@ -4,8 +4,7 @@ struct Settings: View {
     var body: some View {
         NavigationView{
             VStack{
-                List{
-                    
+                Form {
                     HStack {
                         VStack (alignment: .leading){
                             HStack{
@@ -33,6 +32,9 @@ struct Settings: View {
                         Image(systemName: "chevron.forward")
                             .font(.system(size: 15))
                             .foregroundColor(Color.secondary)
+                    }
+                    Section{
+                        Text("Teste")
                     }
                 }
             }.navigationTitle("Settings")
