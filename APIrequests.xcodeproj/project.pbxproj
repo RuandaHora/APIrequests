@@ -14,6 +14,7 @@
 		88694E8A29CBC52200BD7E67 /* Card2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88694E8929CBC52200BD7E67 /* Card2ViewModel.swift */; };
 		88694E8E29CD15EE00BD7E67 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88694E8D29CD15EE00BD7E67 /* Settings.swift */; };
 		88694E9029CD1ACF00BD7E67 /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88694E8F29CD1ACF00BD7E67 /* PrincipalView.swift */; };
+		88694E9229CE9AAE00BD7E67 /* Zoeira.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88694E9129CE9AAE00BD7E67 /* Zoeira.swift */; };
 		888B197F29CA7A4300774C73 /* APIrequestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B197E29CA7A4300774C73 /* APIrequestsApp.swift */; };
 		888B198129CA7A4300774C73 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B198029CA7A4300774C73 /* HomeView.swift */; };
 		888B198329CA7A4700774C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888B198229CA7A4700774C73 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		88694E8929CBC52200BD7E67 /* Card2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card2ViewModel.swift; sourceTree = "<group>"; };
 		88694E8D29CD15EE00BD7E67 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		88694E8F29CD1ACF00BD7E67 /* PrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
+		88694E9129CE9AAE00BD7E67 /* Zoeira.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zoeira.swift; sourceTree = "<group>"; };
 		888B197B29CA7A4300774C73 /* APIrequests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIrequests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		888B197E29CA7A4300774C73 /* APIrequestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIrequestsApp.swift; sourceTree = "<group>"; };
 		888B198029CA7A4300774C73 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			children = (
 				888B199329CA7CAC00774C73 /* Card1View.swift */,
 				88694E7B29CBBB3100BD7E67 /* Card2View.swift */,
+				88694E9129CE9AAE00BD7E67 /* Zoeira.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				88694E7C29CBBB3100BD7E67 /* Card2View.swift in Sources */,
 				88694E8129CBC08000BD7E67 /* Card1Model.swift in Sources */,
 				88694E9029CD1ACF00BD7E67 /* PrincipalView.swift in Sources */,
+				88694E9229CE9AAE00BD7E67 /* Zoeira.swift in Sources */,
 				888B198129CA7A4300774C73 /* HomeView.swift in Sources */,
 				88694E8E29CD15EE00BD7E67 /* Settings.swift in Sources */,
 				888B197F29CA7A4300774C73 /* APIrequestsApp.swift in Sources */,

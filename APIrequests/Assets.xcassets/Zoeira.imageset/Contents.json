@@ -1,0 +1,129 @@
+{
+  "images" : [
+    {
+      "filename" : "Zoeira 1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "Zoeira 2.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 3.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 4.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 5.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 6.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 7.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 8.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 9.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 10.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 11.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 12.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 13.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 14.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 15.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 16.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 17.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 18.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 19.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 20.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 21.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 22.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 23.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 24.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 25.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 26.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira 27.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Zoeira.png",
+      "unassigned" : true
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

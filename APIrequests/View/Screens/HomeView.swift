@@ -6,9 +6,11 @@ struct HomeView: View {
         NavigationView{
             ScrollView(.vertical, showsIndicators: false){
                 VStack{
-                    Card1ViewS()
-                        .shadow(color: .purple ,radius: 5)
-                        .padding(.top, 30)
+                    NavigationLink (destination: Zoeira()){
+                            Card1ViewS()
+                                .shadow(color: .purple ,radius: 5)
+                                .padding(.top, 30)
+                    }
                     Card2ViewS()
                         .shadow(color: .blue, radius: 5)
                         .padding(.top, 15)
