@@ -5,19 +5,28 @@ struct Settings: View {
         NavigationView{
             VStack{
                 Form {
+                    Section{
+                        HStack{
+                            Image(systemName: "magnifyingglass")
+                                .font(.system(size: 15))
+                                .foregroundColor(Color.secondary)
+                            Text("Buscar")
+                                .foregroundColor(.secondary)
+                        }
+                    }
                     HStack {
+                        Image("Ruan")
+                            .resizable()
+                            .frame(width: 60, height: 60)
+                            .cornerRadius(100)
                         VStack (alignment: .leading){
                             HStack{
-                                Image("Ruan")
-                                    .resizable()
-                                    .frame(width: 60, height: 60)
-                                    .cornerRadius(100)
                                 Text("Ruan Pablo Silva da Hora")
                                     .font(.system(size: 20))
                                     .foregroundColor(Color.primary)
                                
                             }
-                            Text("                  Configurações da conta")
+                            Text("ID Apple, iCloud, Mídia e Compras")
                                 .font(.system(size: 12))
                                 .foregroundColor(Color.primary)
                         }
@@ -29,6 +38,12 @@ struct Settings: View {
                     HStack{
                         Text("Sujestões de ID Apple")
                         Spacer()
+                        Text("3")
+                            .foregroundColor(.white)
+                            .frame(width: 25, height: 25)
+                            .background(Color.red)
+                            .cornerRadius(30)
+                            
                         Image(systemName: "chevron.forward")
                             .font(.system(size: 15))
                             .foregroundColor(Color.secondary)
