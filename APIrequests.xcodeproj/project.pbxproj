@@ -20,6 +20,7 @@
 		888B198329CA7A4700774C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888B198229CA7A4700774C73 /* Assets.xcassets */; };
 		888B198629CA7A4700774C73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888B198529CA7A4700774C73 /* Preview Assets.xcassets */; };
 		888B199429CA7CAC00774C73 /* Card1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B199329CA7CAC00774C73 /* Card1View.swift */; };
+		88DC664A29CFE18000E617B7 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC664929CFE18000E617B7 /* SettingsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		888B198229CA7A4700774C73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		888B198529CA7A4700774C73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		888B199329CA7CAC00774C73 /* Card1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card1View.swift; sourceTree = "<group>"; };
+		88DC664929CFE18000E617B7 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				88694E8029CBC08000BD7E67 /* Card1Model.swift */,
 				88694E8729CBC3F500BD7E67 /* Card2Model.swift */,
+				88DC664929CFE18000E617B7 /* SettingsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88694E8429CBC0D900BD7E67 /* Card1ViewModel.swift in Sources */,
+				88DC664A29CFE18000E617B7 /* SettingsModel.swift in Sources */,
 				88694E8829CBC3F500BD7E67 /* Card2Model.swift in Sources */,
 				888B199429CA7CAC00774C73 /* Card1View.swift in Sources */,
 				88694E7C29CBBB3100BD7E67 /* Card2View.swift in Sources */,
