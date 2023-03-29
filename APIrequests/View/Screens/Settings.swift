@@ -175,6 +175,21 @@ struct Settings: View {
                                 .foregroundColor(Color.gray)
                         }
                     }
+                    Section{
+                        HStack{
+                            Image(systemName: "gear")
+                                .font(.system(size: 20))
+                                .foregroundColor(Color.white)
+                                .frame(width: 30, height: 30)
+                                .background(Color.gray)
+                                .cornerRadius(8)
+                            Text("Geral")
+                            Spacer()
+                            Image(systemName: "chevron.forward")
+                                .font(.system(size: 15))
+                                .foregroundColor(Color.gray)
+                        }
+                    }
                 }
             }.navigationTitle("Settings")
         }
