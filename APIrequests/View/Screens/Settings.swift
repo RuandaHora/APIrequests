@@ -1,6 +1,14 @@
 import SwiftUI
 
 struct Settings: View {
+    struct contaRuan{
+        
+    }
+    struct contaModel{
+        
+    }
+    @State var modoaviao = false
+    
     var body: some View {
         NavigationView{
             VStack{
@@ -49,7 +57,73 @@ struct Settings: View {
                             .foregroundColor(Color.secondary)
                     }
                     Section{
-                        Text("Teste")
+                        HStack{
+                            Image(systemName: "airplane")
+                                .foregroundColor(Color.white)
+                                .frame(width: 30, height: 30)
+                                .background(Color.orange)
+                                .cornerRadius(8)
+                            Toggle("Modo Avião" ,isOn: $modoaviao)
+                            
+                        }
+                        HStack{
+                            
+                            Image(systemName: "wifi")
+                                .foregroundColor(Color.white)
+                                .frame(width: 30, height: 30)
+                                .background(Color.blue)
+                                .cornerRadius(8)
+                            Text("Wi-Fi")
+                            Spacer()
+                            Text("TP-LINK_FRE340")
+                                .foregroundColor(Color.secondary)
+                            Image(systemName: "chevron.forward")
+                                .foregroundColor(Color.gray)
+                        }
+                        HStack{
+                            Image(systemName: "bitcoinsign")
+                                .foregroundColor(Color.white)
+                                .frame(width: 30, height: 30)
+                                .background(Color.blue)
+                                .cornerRadius(8)
+                            Text("Bluetooth")
+                            Spacer()
+                            Text("Ativado")
+                                .foregroundColor(Color.secondary)
+                            Image(systemName: "chevron.forward")
+                                .foregroundColor(Color.gray)
+                        }
+                        HStack{
+                            Image(systemName: "antenna.radiowaves.left.and.right")
+                                .foregroundColor(Color.white)
+                                .frame(width: 30, height: 30)
+                                .background(Color.green)
+                                .cornerRadius(8)
+                            Text("Celular")
+                            Spacer()
+                            Text("Desativado")
+                                .foregroundColor(Color.secondary)
+                            Image(systemName: "chevron.forward")
+                                .foregroundColor(Color.gray)
+                        }
+                        HStack{
+                            Image(systemName: "personalhotspot")
+                                .foregroundColor(Color.white)
+                                .frame(width: 30, height: 30)
+                                .background(Color.green)
+                                .cornerRadius(8)
+                            Text("Acesso Pessoal")
+                            Spacer()
+                            Text("Desativado")
+                                .foregroundColor(Color.secondary)
+                            Image(systemName: "chevron.forward")
+                                .foregroundColor(Color.gray)
+                        }.opacity(0.5)
+                    }
+                    Section{
+                        HStack{
+                            Image(systemName: "")
+                        }
                     }
                 }
             }.navigationTitle("Settings")
