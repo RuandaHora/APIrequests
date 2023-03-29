@@ -78,6 +78,7 @@ struct Settings: View {
                             Text("TP-LINK_FRE340")
                                 .foregroundColor(Color.secondary)
                             Image(systemName: "chevron.forward")
+                                .font(.system(size: 15))
                                 .foregroundColor(Color.gray)
                         }
                         HStack{
@@ -91,6 +92,7 @@ struct Settings: View {
                             Text("Ativado")
                                 .foregroundColor(Color.secondary)
                             Image(systemName: "chevron.forward")
+                                .font(.system(size: 15))
                                 .foregroundColor(Color.gray)
                         }
                         HStack{
@@ -104,6 +106,7 @@ struct Settings: View {
                             Text("Desativado")
                                 .foregroundColor(Color.secondary)
                             Image(systemName: "chevron.forward")
+                                .font(.system(size: 15))
                                 .foregroundColor(Color.gray)
                         }
                         HStack{
@@ -117,6 +120,7 @@ struct Settings: View {
                             Text("Desativado")
                                 .foregroundColor(Color.secondary)
                             Image(systemName: "chevron.forward")
+                                .font(.system(size: 15))
                                 .foregroundColor(Color.gray)
                         }.opacity(0.5)
                     }
@@ -127,27 +131,48 @@ struct Settings: View {
                                 .frame(width: 30, height: 30)
                                 .background(Color.red)
                                 .cornerRadius(8)
+                            Text("Notificações")
+                            Spacer()
+                            Image(systemName: "chevron.forward")
+                                .font(.system(size: 15))
+                                .foregroundColor(Color.gray)
                         }
                         HStack{
-                            Image(systemName: "bell.badge.fill")
+                            Image(systemName: "speaker.wave.3.fill")
                                 .foregroundColor(Color.white)
                                 .frame(width: 30, height: 30)
-                                .background(Color.red)
+                                .background(Color.pink)
                                 .cornerRadius(8)
+                            Text("Som e Tato")
+                            Spacer()
+                            Image(systemName: "chevron.forward")
+                                .font(.system(size: 15))
+                                .foregroundColor(Color.gray)
                         }
                         HStack{
-                            Image(systemName: "bell.badge.fill")
+                            Image(systemName: "moon.fill")
                                 .foregroundColor(Color.white)
                                 .frame(width: 30, height: 30)
-                                .background(Color.red)
+                                .background(Color.purple)
                                 .cornerRadius(8)
+                            Text("Foco")
+                            Spacer()
+                            Image(systemName: "chevron.forward")
+                                .font(.system(size: 15))
+                                .foregroundColor(Color.gray)
                         }
                         HStack{
-                            Image(systemName: "bell.badge.fill")
+                            Image(systemName: "hourglass")
+                                .font(.system(size: 20))
                                 .foregroundColor(Color.white)
                                 .frame(width: 30, height: 30)
-                                .background(Color.red)
+                                .background(Color.purple)
                                 .cornerRadius(8)
+                            Text("Tempo de Uso")
+                            Spacer()
+                            Image(systemName: "chevron.forward")
+                                .font(.system(size: 15))
+                                .foregroundColor(Color.gray)
                         }
                     }
                 }
