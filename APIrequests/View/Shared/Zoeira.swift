@@ -4,7 +4,7 @@ struct Zoeira: View {
     var body: some View {
 Image("Zoeira")
             .resizable()
-            .frame(width: 450, height: 1000)
+            .frame(width: 550, height: 1000)
     }
 }
 

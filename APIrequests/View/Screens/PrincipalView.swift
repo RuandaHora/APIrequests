@@ -10,8 +10,8 @@ struct PrincipalView: View {
             }
             Settings()
                 .tabItem{
-                    Image(systemName: "person.fill")
-                    Text("Accont")
+                    Image(systemName: "gear")
+                    Text("Settings")
                 }
         }
     }

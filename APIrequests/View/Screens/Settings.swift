@@ -8,19 +8,24 @@ struct Settings: View {
         
     }
     @State var modoaviao = false
+    @State var Buscar = ""
     
     var body: some View {
         NavigationView{
             VStack{
                 Form {
                     Section{
-                        HStack{
+                        
+                        HStack {
                             Image(systemName: "magnifyingglass")
                                 .font(.system(size: 15))
                                 .foregroundColor(Color.secondary)
-                            Text("Buscar")
-                                .foregroundColor(.secondary)
+                            TextField(text: $Buscar){
+                                Text("Buscar")
+                                    .foregroundColor(Color.secondary)
+                            }
                         }
+                        
                     }
                     HStack {
                         Image("Ruan")
@@ -184,6 +189,19 @@ struct Settings: View {
                                 .background(Color.gray)
                                 .cornerRadius(8)
                             Text("Geral")
+                            Spacer()
+                            Image(systemName: "chevron.forward")
+                                .font(.system(size: 15))
+                                .foregroundColor(Color.gray)
+                        }
+                        HStack{
+                            Image(systemName: "airpodspro")
+                                .font(.system(size: 20))
+                                .foregroundColor(Color.white)
+                                .frame(width: 30, height: 30)
+                                .background(Color.gray)
+                                .cornerRadius(8)
+                            Text("Air Pods Pro")
                             Spacer()
                             Image(systemName: "chevron.forward")
                                 .font(.system(size: 15))
