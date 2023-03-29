@@ -122,7 +122,32 @@ struct Settings: View {
                     }
                     Section{
                         HStack{
-                            Image(systemName: "")
+                            Image(systemName: "bell.badge.fill")
+                                .foregroundColor(Color.white)
+                                .frame(width: 30, height: 30)
+                                .background(Color.red)
+                                .cornerRadius(8)
+                        }
+                        HStack{
+                            Image(systemName: "bell.badge.fill")
+                                .foregroundColor(Color.white)
+                                .frame(width: 30, height: 30)
+                                .background(Color.red)
+                                .cornerRadius(8)
+                        }
+                        HStack{
+                            Image(systemName: "bell.badge.fill")
+                                .foregroundColor(Color.white)
+                                .frame(width: 30, height: 30)
+                                .background(Color.red)
+                                .cornerRadius(8)
+                        }
+                        HStack{
+                            Image(systemName: "bell.badge.fill")
+                                .foregroundColor(Color.white)
+                                .frame(width: 30, height: 30)
+                                .background(Color.red)
+                                .cornerRadius(8)
                         }
                     }
                 }
