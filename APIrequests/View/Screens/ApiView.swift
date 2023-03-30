@@ -1,17 +1,17 @@
 import SwiftUI
-struct UserModel: Codable {
+struct UserModels: Codable {
     var id: Int
     var name: String
     var userName: String
     var email: String
 }
 struct ApiView: View {
-    @State private var users = [UserModel]()
+    @State private var users = [UserModels]()
     
     var body: some View {
-        NavigationView{
+        NavigationView {
             List(users, id: \.id) { user in
-                VStack(alignment: .leading){
+                VStack{
                     Text(user.name).font(.headline).foregroundColor(Color.green)
                     Text(user.userName).font(.headline).foregroundColor(Color.secondary)
                     Text(user.email).font(.headline).foregroundColor(Color.secondary)
@@ -30,7 +30,7 @@ struct ApiView: View {
             do {
                 let (data, _) = try await URLSession.shared.data(from: url)
                 
-                if let decodedResponse = try? JSONDecoder().decode([UserModel].self, from: data) {
+                if let decodedResponse = try? JSONDecoder().decode([UserModels].self, from: data) {
                     users = decodedResponse
                 }
                 

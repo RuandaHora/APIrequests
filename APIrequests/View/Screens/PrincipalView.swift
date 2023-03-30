@@ -8,11 +8,17 @@ struct PrincipalView: View {
                 Image(systemName: "house.fill")
                 Text("Home")
             }
+            ApiView()
+                .tabItem{
+                Image(systemName: "house.fill")
+                Text("Home")
+            }
             Settings()
                 .tabItem{
                     Image(systemName: "gear")
                     Text("Settings")
                 }
+            
         }
     }
 }
