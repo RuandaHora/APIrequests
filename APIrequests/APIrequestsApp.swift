@@ -4,7 +4,7 @@ import SwiftUI
 struct APIrequestsApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            PrincipalView()
         }
     }
 }

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88123C9929E105070076830B /* FlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88123C9829E105070076830B /* FlowView.swift */; };
+		88123C9B29E105770076830B /* gustavoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88123C9A29E105770076830B /* gustavoViewModel.swift */; };
+		88123C9D29E105A00076830B /* gustavoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88123C9C29E105A00076830B /* gustavoModel.swift */; };
+		88123C9F29E106AE0076830B /* ruandahora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88123C9E29E106AE0076830B /* ruandahora.swift */; };
+		88123CA129E106E00076830B /* ruanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88123CA029E106E00076830B /* ruanViewModel.swift */; };
+		88123CA329E107480076830B /* MVVMteste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88123CA229E107480076830B /* MVVMteste.swift */; };
+		88123CA529E107770076830B /* gustavoMensage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88123CA429E107770076830B /* gustavoMensage.swift */; };
+		88123CA729E107A70076830B /* mensageGustavoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88123CA629E107A70076830B /* mensageGustavoVM.swift */; };
 		88694E7C29CBBB3100BD7E67 /* Card2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88694E7B29CBBB3100BD7E67 /* Card2View.swift */; };
 		88694E8129CBC08000BD7E67 /* Card1Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88694E8029CBC08000BD7E67 /* Card1Model.swift */; };
 		88694E8429CBC0D900BD7E67 /* Card1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88694E8329CBC0D900BD7E67 /* Card1ViewModel.swift */; };
@@ -21,10 +29,20 @@
 		888B198329CA7A4700774C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888B198229CA7A4700774C73 /* Assets.xcassets */; };
 		888B198629CA7A4700774C73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888B198529CA7A4700774C73 /* Preview Assets.xcassets */; };
 		888B199429CA7CAC00774C73 /* Card1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B199329CA7CAC00774C73 /* Card1View.swift */; };
+		88AC253B29E0FDB600F92014 /* TelaeBrilho.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AC253A29E0FDB600F92014 /* TelaeBrilho.swift */; };
+		88AC253D29E0FE9300F92014 /* ZoomdaTela.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AC253C29E0FE9300F92014 /* ZoomdaTela.swift */; };
 		88DC664A29CFE18000E617B7 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC664929CFE18000E617B7 /* SettingsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88123C9829E105070076830B /* FlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowView.swift; sourceTree = "<group>"; };
+		88123C9A29E105770076830B /* gustavoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gustavoViewModel.swift; sourceTree = "<group>"; };
+		88123C9C29E105A00076830B /* gustavoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gustavoModel.swift; sourceTree = "<group>"; };
+		88123C9E29E106AE0076830B /* ruandahora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ruandahora.swift; sourceTree = "<group>"; };
+		88123CA029E106E00076830B /* ruanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ruanViewModel.swift; sourceTree = "<group>"; };
+		88123CA229E107480076830B /* MVVMteste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMteste.swift; sourceTree = "<group>"; };
+		88123CA429E107770076830B /* gustavoMensage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gustavoMensage.swift; sourceTree = "<group>"; };
+		88123CA629E107A70076830B /* mensageGustavoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mensageGustavoVM.swift; sourceTree = "<group>"; };
 		88694E7B29CBBB3100BD7E67 /* Card2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card2View.swift; sourceTree = "<group>"; };
 		88694E8029CBC08000BD7E67 /* Card1Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card1Model.swift; sourceTree = "<group>"; };
 		88694E8329CBC0D900BD7E67 /* Card1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card1ViewModel.swift; sourceTree = "<group>"; };
@@ -40,6 +58,8 @@
 		888B198229CA7A4700774C73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		888B198529CA7A4700774C73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		888B199329CA7CAC00774C73 /* Card1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card1View.swift; sourceTree = "<group>"; };
+		88AC253A29E0FDB600F92014 /* TelaeBrilho.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaeBrilho.swift; sourceTree = "<group>"; };
+		88AC253C29E0FE9300F92014 /* ZoomdaTela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomdaTela.swift; sourceTree = "<group>"; };
 		88DC664929CFE18000E617B7 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +80,7 @@
 				88694E8029CBC08000BD7E67 /* Card1Model.swift */,
 				88694E8729CBC3F500BD7E67 /* Card2Model.swift */,
 				88DC664929CFE18000E617B7 /* SettingsModel.swift */,
+				88123C9C29E105A00076830B /* gustavoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -69,6 +90,9 @@
 			children = (
 				88694E8329CBC0D900BD7E67 /* Card1ViewModel.swift */,
 				88694E8929CBC52200BD7E67 /* Card2ViewModel.swift */,
+				88123C9A29E105770076830B /* gustavoViewModel.swift */,
+				88123CA029E106E00076830B /* ruanViewModel.swift */,
+				88123CA629E107A70076830B /* mensageGustavoVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -125,6 +149,9 @@
 				888B199329CA7CAC00774C73 /* Card1View.swift */,
 				88694E7B29CBBB3100BD7E67 /* Card2View.swift */,
 				88694E9129CE9AAE00BD7E67 /* Zoeira.swift */,
+				88123C9E29E106AE0076830B /* ruandahora.swift */,
+				88123CA229E107480076830B /* MVVMteste.swift */,
+				88123CA429E107770076830B /* gustavoMensage.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -135,7 +162,10 @@
 				88694E8F29CD1ACF00BD7E67 /* PrincipalView.swift */,
 				888B198029CA7A4300774C73 /* HomeView.swift */,
 				88694E8D29CD15EE00BD7E67 /* Settings.swift */,
+				88AC253A29E0FDB600F92014 /* TelaeBrilho.swift */,
+				88AC253C29E0FE9300F92014 /* ZoomdaTela.swift */,
 				88768BB629D4FDD300CFA0BC /* ApiView.swift */,
+				88123C9829E105070076830B /* FlowView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -210,17 +240,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88123CA129E106E00076830B /* ruanViewModel.swift in Sources */,
 				88694E8429CBC0D900BD7E67 /* Card1ViewModel.swift in Sources */,
+				88123CA529E107770076830B /* gustavoMensage.swift in Sources */,
 				88DC664A29CFE18000E617B7 /* SettingsModel.swift in Sources */,
 				88694E8829CBC3F500BD7E67 /* Card2Model.swift in Sources */,
 				888B199429CA7CAC00774C73 /* Card1View.swift in Sources */,
+				88AC253D29E0FE9300F92014 /* ZoomdaTela.swift in Sources */,
 				88694E7C29CBBB3100BD7E67 /* Card2View.swift in Sources */,
+				88123CA729E107A70076830B /* mensageGustavoVM.swift in Sources */,
+				88123C9B29E105770076830B /* gustavoViewModel.swift in Sources */,
 				88694E8129CBC08000BD7E67 /* Card1Model.swift in Sources */,
+				88123CA329E107480076830B /* MVVMteste.swift in Sources */,
 				88694E9029CD1ACF00BD7E67 /* PrincipalView.swift in Sources */,
+				88123C9D29E105A00076830B /* gustavoModel.swift in Sources */,
 				88694E9229CE9AAE00BD7E67 /* Zoeira.swift in Sources */,
 				888B198129CA7A4300774C73 /* HomeView.swift in Sources */,
 				88768BB729D4FDD300CFA0BC /* ApiView.swift in Sources */,
+				88123C9F29E106AE0076830B /* ruandahora.swift in Sources */,
 				88694E8E29CD15EE00BD7E67 /* Settings.swift in Sources */,
+				88123C9929E105070076830B /* FlowView.swift in Sources */,
+				88AC253B29E0FDB600F92014 /* TelaeBrilho.swift in Sources */,
 				888B197F29CA7A4300774C73 /* APIrequestsApp.swift in Sources */,
 				88694E8A29CBC52200BD7E67 /* Card2ViewModel.swift in Sources */,
 			);
@@ -351,6 +391,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"APIrequests/Preview Content\"";
+				DEVELOPMENT_TEAM = STRH3LBGWA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -379,6 +420,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"APIrequests/Preview Content\"";
+				DEVELOPMENT_TEAM = STRH3LBGWA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -10,9 +10,14 @@ struct PrincipalView: View {
             }
             ApiView()
                 .tabItem{
-                Image(systemName: "house.fill")
-                Text("Home")
+                Image(systemName: "list.clipboard")
+                Text("List")
             }
+            FlowView()
+                .tabItem{
+                    Image(systemName: "apps.iphone")
+                    Text("FLOW")
+                }
             Settings()
                 .tabItem{
                     Image(systemName: "gear")

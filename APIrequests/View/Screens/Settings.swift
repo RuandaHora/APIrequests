@@ -207,6 +207,20 @@ struct Settings: View {
                                 .font(.system(size: 15))
                                 .foregroundColor(Color.gray)
                         }
+                        NavigationLink(destination: Tela_e_Brilho()){
+                            HStack{
+                                       Text("aA")
+                                        .font(.system(size: 15))
+                                        .foregroundColor(Color.white)
+                                        .frame(width: 30, height: 30)
+                                        .background(Color.blue)
+                                    .cornerRadius(8)
+                                
+                                Text("Tela e Brilho")
+                                Spacer()
+                                
+                            }
+                        }
                     }
                 }
             }.navigationTitle("Settings")
