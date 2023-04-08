@@ -1,5 +1,5 @@
 import Foundation
-//MARK: Model 
+//MARK: Model
 struct CardModel {
     var IconeSwift: String
     var TextTop: String
