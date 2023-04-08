@@ -21,7 +21,7 @@ struct PrincipalView: View {
             Settings()
                 .tabItem{
                     Image(systemName: "gear")
-                    Text("Settings ")
+                    Text("Settings")
                 }
             
         }
