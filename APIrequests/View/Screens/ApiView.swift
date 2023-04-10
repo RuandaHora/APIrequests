@@ -1,6 +1,6 @@
 import SwiftUI
-struct UserModels: Codable {
-    var id: Int
+struct UserModels: Codable, Identifiable {
+    var id: UUID
     var name: String
     var userName: String
     var email: String
