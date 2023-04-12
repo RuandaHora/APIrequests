@@ -19,7 +19,7 @@ struct ruanFlow: View {
     @State var viewModel = ruanViewModel()
     
     var body: some View {
-        ScrollView {
+        ScrollView (showsIndicators: false){
             VStack{
                 Image("ruan 1")
                     .resizable()
