@@ -16,7 +16,7 @@ struct ApiView: View {
                     Text(user.userName).font(.headline).foregroundColor(Color.secondary)
                     Text(user.email).font(.headline).foregroundColor(Color.secondary)
                 }
-            }.navigationTitle("Users API").task {
+            }.navigationTitle("Users API ").task {
                 await fetchData()
             }
         }
@@ -35,7 +35,7 @@ struct ApiView: View {
                 }
                 
             } catch {
-                print("These data are not valid!")
+                print("These data are not valid! ")
             }
         }
         
